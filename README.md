@@ -14,14 +14,19 @@ This repository contain backend of the Inventory Management.
 
 ```commandline
 git clone https://github.com/iamj33l/Inventory-Management-Backend.git
+cd Inventory-Management-Backend
 ```
 
-2. Install Dependency with uv
+2. Install Dependency with uv and activate virtual enviroment.
 
 ```commandline
 uv sync
 ```
 This will create virtual environment and install the dependencies.
+
+```commandline
+.venv/Scripts/activate
+```
 
 3. Create database in Postgres 
 
