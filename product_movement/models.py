@@ -26,3 +26,6 @@ class ProductMovement(models.Model):
 
     def __str__(self):
         return f"{self.product.name} - {self.timestamp}"
+
+    class Meta:
+        ordering = ['timestamp']
