@@ -76,17 +76,13 @@ host1,host2,host3
 
 - if you are using frontend from [this](https://github.com/iamj33l/Inventory-Management-Frontend) repository, add `http://localhost:3000` to CORS allowed origins.
 
-```env
-
-```python
-
-6. Apply migrations.
+7. Apply migrations.
 
 ```commandline
 python manage.py migrate
 ```
 
-7. Run the server
+8. Run the server
 
 ```commandline
 python manage.py runserver
