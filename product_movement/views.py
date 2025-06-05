@@ -2,7 +2,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 from .models import ProductMovement
-from .serializers import ProductMovementSerializer, ProductMovementDisplaySerializer
+from .serializers import ProductMovementDisplaySerializer, ProductMovementSerializer
 
 
 @api_view(['GET'])
