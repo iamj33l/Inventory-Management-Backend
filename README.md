@@ -71,6 +71,15 @@ This will create virtual environment and install the dependencies.
 python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 ```
 
+6. Add CORS allowed origins in .env file, seperated by commas. For example:
+host1,host2,host3
+
+- if you are using frontend from [this](https://github.com/iamj33l/Inventory-Management-Frontend) repository, add `http://localhost:3000` to CORS allowed origins.
+
+```env
+
+```python
+
 6. Apply migrations.
 
 ```commandline
