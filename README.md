@@ -35,8 +35,8 @@ Product Movements
 | PUT    | `product-movements/<id>/update` | Update a product movement by ID    |
 
 Reports
-| Method | Endpoint                         | Description                        |
-|--------|----------------------------------|------------------------------------|
+| Method | Endpoint                           | Description                        |
+|--------|------------------------------------|------------------------------------|
 | GET    | `reports/product-balance`          | List product balance report        |
 
 ### Getting Started
